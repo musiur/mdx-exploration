@@ -1,8 +1,5 @@
-@import "@/app/globals.scss";
+@import "./globals.scss";
 
-.container {
-  @apply min-w-[100vw] px-[3%] sm:px-[6%] md:px-[10%] lg:px-[16%] xl:px-[25%];
-}
 
 h1 {
   @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;

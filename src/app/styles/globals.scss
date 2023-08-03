@@ -102,3 +102,15 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
 
+// custom scroll bar
+
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 hover:bg-gray-300 rounded;
+}
+::-webkit-scrollbar-track {
+  @apply bg-[#ffffff30] rounded;
+}
